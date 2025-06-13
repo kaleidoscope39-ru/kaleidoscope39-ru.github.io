@@ -1,0 +1,1 @@
+import{f as t,a as r}from"../chunks/B-h5Q_sx.js";import"../chunks/FcmUr1po.js";var p=t('<h1 class="text-4xl">Калейдоскоп. Калининград. Детский Сад — Монтессори.</h1>');function n(o){var a=p();r(o,a)}export{n as component};
