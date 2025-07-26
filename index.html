@@ -1,146 +1,169 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" class="h-full bg-gray-100">
 
 <head>
   <meta charset="utf-8" />
   <title>Калейдоскоп Монтессори-центр — Калининград</title>
-  <script src="/assets/tw.js"></script>
-
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Tailwind CDN for demo purposes -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background: #f3f4f6;
-    }
-
-    nav {
-      background: #4f46e5;
-      color: #fff;
-      padding: 1rem;
-    }
-
-    nav a {
-      color: #fff;
-      margin-right: 1rem;
-      text-decoration: none;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
-
-    h1,
-    h2,
-    h3 {
-      margin-top: 1.5rem;
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 1rem;
-    }
-
-    .gallery img {
-      width: 100%;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px #0001;
-    }
-
-    footer {
-      background: #3730a3;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
 </head>
 
-<body>
+<body class="h-full">
 
-
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-
-  <nav>
-    <a href="#"><b>Калейдоскоп</b></a>
-    <a href="#about">О нас</a>
-    <a href="#plans">Программы</a>
-    <a href="#gallery">Галерея</a>
-    <a href="#contact">Контакты</a>
-    <a href="tel:+79622657774" style="float:right;">Позвонить</a>
-  </nav>
-  <div class="container">
-    <section>
-      <h1>Откройте мир для вашего ребёнка</h1>
-      <p>В центре «Калейдоскоп» мы помогаем детям расти самостоятельными, любознательными и уверенными в себе, следуя
-        методу Марии Монтессори.</p>
-    </section>
-    <section id="about">
-      <h2>О нашем центре</h2>
-      <p>Мы создали безопасную, уважительную и подготовленную среду, где каждый ребёнок может развиваться в собственном
-        темпе. Наша главная задача — поддерживать естественное стремление детей к познанию, развивать концентрацию,
-        самодисциплину и любовь к учёбе.</p>
-      <h3>Наша команда</h3>
-      <p><b>Ольга Викторовна Древс</b> — директор и идейный вдохновитель центра</p>
-    </section>
-    <section id="plans">
-      <h2>Наши программы</h2>
-      <ul>
-        <li><b>Toddler (1,5–3 года):</b> мягкая адаптация, развитие моторики, социализация.</li>
-        <li><b>Pre-school (3–7 лет):</b> комплексное развитие, музыка, творчество, английский, подготовка к школе.</li>
-        <li><b>Дополнительные занятия:</b> фитнес, музыка, шахматы, йога, английский, логопед, мастер-классы.</li>
-      </ul>
-    </section>
-    <section id="gallery">
-      <h2>Галерея</h2>
-      <div class="gallery">
-        <img src="gallery/image001.jpg" alt="Галерея 1">
-        <img src="gallery/image002.jpg" alt="Галерея 2">
-        <img src="gallery/image003.jpg" alt="Галерея 3">
-        <img src="gallery/image004.jpg" alt="Галерея 4">
-        <img src="gallery/image005.jpg" alt="Галерея 5">
-        <img src="gallery/image006.jpg" alt="Галерея 6">
-        <img src="gallery/image007.jpg" alt="Галерея 7">
-        <img src="gallery/image008.jpg" alt="Галерея 8">
-        <img src="gallery/image009.jpg" alt="Галерея 9">
-        <img src="gallery/image010.jpg" alt="Галерея 10">
-        <img src="gallery/image011.jpg" alt="Галерея 11">
-        <img src="gallery/image012.jpg" alt="Галерея 12">
-        <img src="gallery/image013.jpg" alt="Галерея 13">
-        <img src="gallery/image014.jpg" alt="Галерея 14">
-        <img src="gallery/image015.jpg" alt="Галерея 15">
-        <img src="gallery/image016.jpg" alt="Галерея 16">
-        <img src="gallery/image017.jpg" alt="Галерея 17">
-        <img src="gallery/image018.jpg" alt="Галерея 18">
-        <img src="gallery/image019.jpg" alt="Галерея 19">
-        <img src="gallery/image020.jpg" alt="Галерея 20">
-        <img src="gallery/image021.jpg" alt="Галерея 21">
-        <img src="gallery/image022.jpg" alt="Галерея 22">
+  <div class="min-h-full flex flex-col">
+    <nav class="bg-indigo-600">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <div class="flex items-center">
+            <a href="#" class="flex items-center">
+              <img src="favicon.ico" alt="Калейдоскоп" class="h-8 w-8 rounded-full mr-2" />
+              <span class="text-white font-bold text-lg">Калейдоскоп</span>
+            </a>
+            <div class="hidden md:flex ml-10 space-x-4">
+              <a href="#about" class="text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-sm font-medium">О
+                нас</a>
+              <a href="#plans"
+                class="text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-sm font-medium">Программы</a>
+              <a href="#gallery"
+                class="text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-sm font-medium">Галерея</a>
+              <a href="#contact"
+                class="text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-sm font-medium">Контакты</a>
+            </div>
+          </div>
+          <div class="hidden md:block">
+            <a href="tel:+79622657774"
+              class="text-white bg-indigo-700 hover:bg-indigo-800 rounded-md px-4 py-2 font-medium">Позвонить</a>
+          </div>
+          <div class="md:hidden">
+            <button id="menu-btn" type="button"
+              class="inline-flex items-center justify-center rounded-md bg-indigo-600 p-2 text-indigo-200 hover:bg-indigo-500/75 hover:text-white focus:outline-none"
+              aria-controls="mobile-menu" aria-expanded="false">
+              <span class="sr-only">Открыть меню</span>
+              <svg class="h-6 w-6" id="menu-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+              <svg class="h-6 w-6 hidden" id="menu-close" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
-    </section>
-    <section id="contact">
-      <h2>Контакты</h2>
-      <p><b>Адрес:</b> г. Калининград, ул. Красная, д. 273</p>
-      <p><b>Телефон:</b> <a href="tel:+79622657774">+7 (962) 265-77-74</a></p>
-      <p>
-        <a href="https://t.me/kaleidoscope39" target="_blank">Telegram</a> |
-        <a href="https://wa.me/79622657774" target="_blank">WhatsApp</a> |
-        <a href="https://vk.com/club222772943" target="_blank">ВКонтакте</a> |
-        <a href="https://www.instagram.com/kaleidoskop_kaliningrad" target="_blank">Instagram</a> |
-        <a href="viber://chat?number=+79622657774">Viber</a>
-      </p>
-    </section>
+      <div class="md:hidden" id="mobile-menu" hidden>
+        <div class="space-y-1 px-2 pt-2 pb-3">
+          <a href="#about" class="block text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-base font-medium">О
+            нас</a>
+          <a href="#plans"
+            class="block text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-base font-medium">Программы</a>
+          <a href="#gallery"
+            class="block text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-base font-medium">Галерея</a>
+          <a href="#contact"
+            class="block text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-base font-medium">Контакты</a>
+          <a href="tel:+79622657774"
+            class="block text-white bg-indigo-700 hover:bg-indigo-800 rounded-md px-3 py-2 text-base font-medium mt-2">Позвонить</a>
+        </div>
+      </div>
+      <script>
+        // Simple mobile menu toggle (no popup, no dropdown)
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const openIcon = document.getElementById('menu-open');
+        const closeIcon = document.getElementById('menu-close');
+        btn.onclick = () => {
+          const isHidden = menu.hasAttribute('hidden');
+          if (isHidden) {
+            menu.removeAttribute('hidden');
+            openIcon.classList.add('hidden');
+            closeIcon.classList.remove('hidden');
+          } else {
+            menu.setAttribute('hidden', '');
+            openIcon.classList.remove('hidden');
+            closeIcon.classList.add('hidden');
+          }
+        };
+      </script>
+    </nav>
+
+    <main class="flex-1">
+      <div class="mx-auto max-w-4xl px-4 py-8">
+        <section>
+          <h1 class="text-2xl font-bold text-gray-900 mb-4">Откройте мир для вашего ребёнка</h1>
+          <p class="text-gray-700 mb-8">В центре «Калейдоскоп» мы помогаем детям расти самостоятельными,
+            любознательными и уверенными в себе, следуя методу Марии Монтессори.</p>
+        </section>
+        <section id="about" class="mb-10">
+          <h2 class="text-xl font-semibold text-indigo-700 mb-2">О нашем центре</h2>
+          <p class="text-gray-700 mb-4">Мы создали безопасную, уважительную и подготовленную среду, где каждый
+            ребёнок может развиваться в собственном темпе. Наша главная задача — поддерживать естественное стремление
+            детей к познанию, развивать концентрацию, самодисциплину и любовь к учёбе.</p>
+          <h3 class="font-semibold text-indigo-600 mb-1">Наша команда</h3>
+          <p class="text-gray-700"><b>Ольга Викторовна Древс</b> — директор и идейный вдохновитель центра</p>
+        </section>
+        <section id="plans" class="mb-10">
+          <h2 class="text-xl font-semibold text-indigo-700 mb-2">Наши программы</h2>
+          <ul class="list-disc pl-6 text-gray-700 space-y-1">
+            <li><b>Toddler (1,5–3 года):</b> мягкая адаптация, развитие моторики, социализация.</li>
+            <li><b>Pre-school (3–7 лет):</b> комплексное развитие, музыка, творчество, английский, подготовка к
+              школе.</li>
+            <li><b>Дополнительные занятия:</b> фитнес, музыка, шахматы, йога, английский, логопед, мастер-классы.
+            </li>
+          </ul>
+        </section>
+        <section id="gallery" class="mb-10">
+          <h2 class="text-xl font-semibold text-indigo-700 mb-4">Галерея</h2>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <img src="gallery/image001.jpg" alt="Галерея 1" class="rounded-lg shadow" />
+            <img src="gallery/image002.jpg" alt="Галерея 2" class="rounded-lg shadow" />
+            <img src="gallery/image003.jpg" alt="Галерея 3" class="rounded-lg shadow" />
+            <img src="gallery/image004.jpg" alt="Галерея 4" class="rounded-lg shadow" />
+            <img src="gallery/image005.jpg" alt="Галерея 5" class="rounded-lg shadow" />
+            <img src="gallery/image006.jpg" alt="Галерея 6" class="rounded-lg shadow" />
+            <img src="gallery/image007.jpg" alt="Галерея 7" class="rounded-lg shadow" />
+            <img src="gallery/image008.jpg" alt="Галерея 8" class="rounded-lg shadow" />
+            <img src="gallery/image009.jpg" alt="Галерея 9" class="rounded-lg shadow" />
+            <img src="gallery/image010.jpg" alt="Галерея 10" class="rounded-lg shadow" />
+            <img src="gallery/image011.jpg" alt="Галерея 11" class="rounded-lg shadow" />
+            <img src="gallery/image012.jpg" alt="Галерея 12" class="rounded-lg shadow" />
+            <img src="gallery/image013.jpg" alt="Галерея 13" class="rounded-lg shadow" />
+            <img src="gallery/image014.jpg" alt="Галерея 14" class="rounded-lg shadow" />
+            <img src="gallery/image015.jpg" alt="Галерея 15" class="rounded-lg shadow" />
+            <img src="gallery/image016.jpg" alt="Галерея 16" class="rounded-lg shadow" />
+            <img src="gallery/image017.jpg" alt="Галерея 17" class="rounded-lg shadow" />
+            <img src="gallery/image018.jpg" alt="Галерея 18" class="rounded-lg shadow" />
+            <img src="gallery/image019.jpg" alt="Галерея 19" class="rounded-lg shadow" />
+            <img src="gallery/image020.jpg" alt="Галерея 20" class="rounded-lg shadow" />
+            <img src="gallery/image021.jpg" alt="Галерея 21" class="rounded-lg shadow" />
+            <img src="gallery/image022.jpg" alt="Галерея 22" class="rounded-lg shadow" />
+          </div>
+        </section>
+        <section id="contact" class="mb-10">
+          <h2 class="text-xl font-semibold text-indigo-700 mb-2">Контакты</h2>
+          <p class="text-gray-700"><b>Адрес:</b> г. Калининград, ул. Красная, д. 273</p>
+          <p class="text-gray-700"><b>Телефон:</b> <a href="tel:+79622657774" class="text-indigo-700 hover:underline">+7
+              (962) 265-77-74</a></p>
+          <p class="text-gray-700 space-x-2">
+            <a href="https://t.me/kaleidoscope39" target="_blank" class="text-indigo-700 hover:underline">Telegram</a>
+            <span>|</span>
+            <a href="https://wa.me/79622657774" target="_blank" class="text-indigo-700 hover:underline">WhatsApp</a>
+            <span>|</span>
+            <a href="https://vk.com/club222772943" target="_blank" class="text-indigo-700 hover:underline">ВКонтакте</a>
+            <span>|</span>
+            <a href="https://www.instagram.com/kaleidoskop_kaliningrad" target="_blank"
+              class="text-indigo-700 hover:underline">Instagram</a>
+            <span>|</span>
+            <a href="viber://chat?number=+79622657774" class="text-indigo-700 hover:underline">Viber</a>
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer class="bg-indigo-800 text-white text-center py-4">
+      © 2025 Монтессори-центр «Калейдоскоп». Все права защищены.
+    </footer>
   </div>
-  <footer>
-    © 2025 Монтессори-центр «Калейдоскоп». Все права защищены.
-  </footer>
 </body>
 
 </html>
