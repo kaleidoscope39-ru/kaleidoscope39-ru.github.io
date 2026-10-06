@@ -1,186 +1,313 @@
-<!doctype html>
-<html lang="ru" class="h-full bg-gray-100">
-
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <title>Калейдоскоп Монтессори-центр — Калининград</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Tailwind CDN for demo purposes -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function (m, e, t, r, i, k, a) {
-      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-      m[i].l = 1 * new Date();
-      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
-      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-    })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
-
-    ym(99658628, 'init', { trackHash: true, clickmap: true, accurateTrackBounce: true, trackLinks: true });
-  </script>
-  <noscript>
-    <div><img src="https://mc.yandex.ru/watch/99658628" style="position:absolute; left:-9999px;" alt="" /></div>
-  </noscript>
-  <!-- /Yandex.Metrika counter -->
-
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Частный детский сад в Калининграде | Калейдоскоп</title>
+  <meta name="description" content="Частный детский сад и Монтессори-центр в Калининграде для детей 1,5-7 лет. Малые группы, питание, развивающая среда, ул. Красная, 273-275." />
+  <link rel="canonical" href="https://kaleidoscope39.ru/" />
+  <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+  <link rel="stylesheet" href="/assets/css/site.min.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","url":"https://kaleidoscope39.ru/","inLanguage":"ru-RU","name":"Калейдоскоп","@id":"https://kaleidoscope39.ru/#website"},{"address":{"@type":"PostalAddress","postalCode":"236023","addressCountry":"RU","addressLocality":"Калининград","streetAddress":"ул. Красная, 273-275"},"image":"https://kaleidoscope39.ru/assets/images/hero-illustration.webp","telephone":"+79622657774","@id":"https://kaleidoscope39.ru/#organization","name":"Монтессори-центр Калейдоскоп","@type":"ChildCare","email":"drevs.olga888@gmail.com","url":"https://kaleidoscope39.ru/"}]}</script>
 </head>
+<body><!-- LIGHTBOX -->
+  <div class="lb-overlay" id="lightbox">
+    <span class="lb-close" id="lb-close">&times;</span>
+    <span class="lb-prev" id="lb-prev">&#8249;</span>
+    <img id="lb-img" src="" alt="Фото" />
+    <span class="lb-next" id="lb-next">&#8250;</span>
+  </div>
 
-<body class="h-full">
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Калейдоскоп</a>
+      <ul class="nav-links">
+        <li><a href="#about">О центре</a></li>
+        <li><a href="#plans">Тарифы</a></li>
+        <li><a href="#montessori">Монтессори</a></li>
+        <li><a href="#faq">Вопросы</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+      <a class="nav-phone" href="tel:+79622657774">+7 962 265-77-74</a>
+      <button class="nav-burger" id="menuToggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav-mobile" id="mobileMenu">
+      <a href="#about">О центре</a>
+      <a href="#plans">Тарифы</a>
+      <a href="#montessori">О методе Монтессори</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#faq">Вопросы и ответы</a>
+      <a href="#contact">Контакты</a>
+      <a href="tel:+79622657774" style="color:var(--kids-blue)">+7 962 265-77-74</a>
+    </nav>
+  </header>
 
-  <div class="min-h-full flex flex-col">
-    <nav class="bg-indigo-600">
-      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-        <div class="flex h-16 items-center justify-between">
-          <div class="flex items-center">
-            <a href="#" class="flex items-center">
-              <img src="favicon.ico" alt="Калейдоскоп" class="h-8 w-8 rounded-full mr-2" />
-              <span class="text-white font-bold text-lg">Калейдоскоп</span>
-            </a>
-            <div class="hidden md:flex ml-10 space-x-4">
-              <a href="#about" class="text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-sm font-medium">О
-                нас</a>
-              <a href="#plans"
-                class="text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-sm font-medium">Программы</a>
-              <a href="#gallery"
-                class="text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-sm font-medium">Галерея</a>
-              <a href="#contact"
-                class="text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-sm font-medium">Контакты</a>
+  <!-- HERO -->
+  <section class="hero-section">
+    <div class="hero-inner hero">
+      <div>
+        <div class="hero-badges">
+          <span class="badge">Монтессори</span>
+          <span class="badge orange">1,5 — 7 лет</span>
+          <span class="badge">Калининград</span>
+        </div>
+        <h1>Частный детский сад и Монтессори-центр «Калейдоскоп»</h1>
+        <p class="hero-sub">ул. Красная, 273-275 &nbsp;&middot;&nbsp; Будни 8:30-19:00 &nbsp;&middot;&nbsp; Группы Toddler и Pre-school</p>
+        <div class="hero-btns">
+          <a class="btn-primary" href="tel:+79622657774">Позвонить</a>
+          <a class="btn-secondary" href="#plans">Узнать тарифы</a>
+        </div>
+      </div>
+      <div class="hero-illus">
+        <img
+          class="hero-illus-image"
+          src="/assets/images/hero-illustration.webp"
+          alt="Монтессори-среда центра Калейдоскоп"
+          width="1313"
+          height="1063"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="card">
+        <h2>О центре</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">🏫</div>
+            <strong>Своя среда</strong>
+            <p>Пространство, где дети развиваются в атмосфере свободы, уважения и интереса к миру.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">👩‍🏫</div>
+            <strong>Опытные педагоги</strong>
+            <p>Помогают ребёнку раскрыть индивидуальные способности и научиться самостоятельности.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">👶</div>
+            <strong>Малые группы</strong>
+            <p>8–12 детей — каждый ребёнок получает достаточно внимания педагога каждый день.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANS -->
+  <section class="section" id="plans">
+    <div class="container">
+      <div class="card">
+        <h2>Тарифы и режим посещения</h2>
+        <div class="plans-grid">          <div class="plan-card">
+            <div class="plan-age">Toddler &#183; 1,5-3 года</div>
+            <h3>Группа Toddler</h3>
+            <div class="plan-option"><span>8:30 - 13:00 (завтрак и обед от центра)</span><span class="price">17 000 руб./мес</span></div>
+            <div class="plan-option"><span>8:30 - 16:30 (завтрак, обед, полдник от центра)</span><span class="price">22 000 руб./мес</span></div>
+          </div>
+          <div class="plan-card">
+            <div class="plan-age">Pre-school &#183; 3-7 лет</div>
+            <h3>Группа Pre-school</h3>
+            <div class="plan-option"><span>8:30 - 19:00, питание от центра</span><span class="price">34 000 руб./мес</span></div>
+            <div class="plan-option"><span>8:30 - 19:00, обед и полдник из дома (контейнер)</span><span class="price">25 700 руб./мес</span></div>
+            <div class="plan-option"><span>3 раза в неделю, 8:30 - 19:00, питание от центра</span><span class="price">23 200 руб./мес</span></div>
+          </div>
+        </div>
+        <p class="extras-title">Дополнительные занятия</p>
+        <div class="extras-row">          <div class="extra-item"><div class="extra-day">Пн</div><div class="extra-act">Фитнес</div></div>
+          <div class="extra-item"><div class="extra-day">Вт</div><div class="extra-act">Музыка</div></div>
+          <div class="extra-item"><div class="extra-day">Ср</div><div class="extra-act">Шахматы</div></div>
+          <div class="extra-item"><div class="extra-day">Чт</div><div class="extra-act">Йога</div></div>
+          <div class="extra-item"><div class="extra-day">Пт</div><div class="extra-act">Английский</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MONTESSORI -->
+  <section class="section" id="montessori">
+    <div class="container">
+      <div class="card">
+        <h2>Метод Монтессори</h2>
+        <div class="montessori-cols">
+          <div class="m-points">
+            <div class="m-point"><div class="m-dot"></div><div><strong>Свобода выбора</strong><p>Ребёнок сам выбирает занятие по интересу — педагог мягко направляет, не диктует.</p></div></div>
+            <div class="m-point"><div class="m-dot"></div><div><strong>Практика, а не теория</strong><p>Учёба через действие: руки, материалы, реальные задачи и исследование.</p></div></div>
+            <div class="m-point"><div class="m-dot"></div><div><strong>Самостоятельность</strong><p>Ребёнок выстраивает самостоятельное отношение к учёбе и жизни без принуждения.</p></div></div>
+            <div class="m-point"><div class="m-dot"></div><div><strong>Проверено временем</strong><p>Методика Марии Монтессори работает уже более 100 лет по всему миру.</p></div></div>
+            <div class="m-point"><div class="m-dot"></div><div><strong>Речь, математика, сенсорика</strong><p>Полноценная программа: творчество, социализация, подготовка к школе.</p></div></div>
+          </div>
+          <img
+            class="montessori-img"
+            src="/assets/images/gallery/thumbs/image010.webp"
+            data-full-src="/assets/images/gallery/image010.webp"
+            alt="Монтессори занятие в центре Калейдоскоп"
+            width="360"
+            height="240"
+            loading="lazy"
+            decoding="async"
+            data-lightbox-single
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="card">
+        <h2>Галерея</h2>
+        <div class="gallery-full" id="galleryGrid">          <img src="/assets/images/gallery/thumbs/image001.webp" data-full-src="/assets/images/gallery/image001.webp" alt="Игровая зона Монтессори-центра Калейдоскоп" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image002.webp" data-full-src="/assets/images/gallery/image002.webp" alt="Материалы для занятий в частном детском саду Калейдоскоп" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image003.webp" data-full-src="/assets/images/gallery/image003.webp" alt="Развивающая среда для детей 1,5-7 лет" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image004.webp" data-full-src="/assets/images/gallery/image004.webp" alt="Занятия в группе Toddler" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image005.webp" data-full-src="/assets/images/gallery/image005.webp" alt="Занятия в группе Pre-school" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image006.webp" data-full-src="/assets/images/gallery/image006.webp" alt="Творческие занятия в Монтессори-центре" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image007.webp" data-full-src="/assets/images/gallery/image007.webp" alt="Детская игровая комната центра Калейдоскоп" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image008.webp" data-full-src="/assets/images/gallery/image008.webp" alt="Монтессори занятие в Калининграде" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image009.webp" data-full-src="/assets/images/gallery/image009.webp" alt="Пространство для самостоятельной работы детей" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image011.webp" data-full-src="/assets/images/gallery/image011.webp" alt="Развивающие материалы для дошкольников" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image012.webp" data-full-src="/assets/images/gallery/image012.webp" alt="Учебная зона частного детского сада" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image013.webp" data-full-src="/assets/images/gallery/image013.webp" alt="Группа детей в центре Калейдоскоп" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image014.webp" data-full-src="/assets/images/gallery/image014.webp" alt="Подготовка к школе в Монтессори-центре" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image015.webp" data-full-src="/assets/images/gallery/image015.webp" alt="Сенсорные материалы для развития ребёнка" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image016.webp" data-full-src="/assets/images/gallery/image016.webp" alt="Зона творчества в детском центре" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image017.webp" data-full-src="/assets/images/gallery/image017.webp" alt="Комната для занятий малышей" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image018.webp" data-full-src="/assets/images/gallery/image018.webp" alt="Развивающие занятия для дошкольников" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image019.webp" data-full-src="/assets/images/gallery/image019.webp" alt="Интерьер частного детского сада Калейдоскоп" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image020.webp" data-full-src="/assets/images/gallery/image020.webp" alt="Безопасная среда для детей в Калининграде" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image021.webp" data-full-src="/assets/images/gallery/image021.webp" alt="Педагогическая среда Монтессори-центра" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+          <img src="/assets/images/gallery/thumbs/image022.webp" data-full-src="/assets/images/gallery/image022.webp" alt="Фотография центра Калейдоскоп" width="360" height="480" loading="lazy" decoding="async" data-gallery-image />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="card">
+        <h2>Часто задаваемые вопросы</h2>
+        <dl class="faq-list">          <div class="faq-item"><dt>С какого возраста принимаете детей?</dt><dd>Принимаем от 1,5 лет (группа Toddler) и до 7 лет (Pre-school).</dd></div>
+          <div class="faq-item"><dt>Какой режим работы?</dt><dd>Группы работают по будням с 8:30 до 19:00. Есть форматы полдня и 3 раза в неделю.</dd></div>
+          <div class="faq-item"><dt>Есть питание в центре?</dt><dd>Да: завтрак, обед и полдник от центра. Возможен вариант с домашней едой в контейнере.</dd></div>
+          <div class="faq-item"><dt>Можно посещать неполный день?</dt><dd>Да, для малышей есть полудневное посещение до 13:00 или до 16:30.</dd></div>
+          <div class="faq-item"><dt>Какие дополнительные занятия есть?</dt><dd>Фитнес, музыка, шахматы, йога и английский язык - по дням недели, входят в программу.</dd></div>
+          <div class="faq-item"><dt>Сколько детей в группе?</dt><dd>8-12 детей - небольшие группы, чтобы каждый ребёнок получал внимание педагога.</dd></div>
+          <div class="faq-item"><dt>Можно прийти на пробное занятие?</dt><dd>Да, приглашаем на пробный день - познакомиться с педагогами и атмосферой перед записью.</dd></div>
+          <div class="faq-item"><dt>Что нужно для поступления?</dt><dd>Заявление от родителей, медицинская карта и договор. Подробности обсудим при записи.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="card">
+        <h2>Контакты</h2>
+        <div class="contact-grid">
+          <dl class="contact-dl">
+            <dt>Адрес</dt>
+            <dd>ул. Красная, 273-275, Калининград, 236023</dd>
+            <dt>Телефон</dt>
+            <dd><a href="tel:+79622657774">+7 962 265-77-74</a></dd>
+            <dt>Почта</dt>
+            <dd><a href="mailto:drevs.olga888@gmail.com">drevs.olga888@gmail.com</a></dd>
+            <dt>Режим работы</dt>
+            <dd>Понедельник - Пятница, 8:30 - 19:00</dd>
+            <dt>Соцсети</dt>
+            <dd>
+              <div class="social-row">
+                <a class="social-btn" href="https://vk.com/kaleidoscope39_ru" target="_blank" rel="noopener">ВКонтакте</a>
+                <a class="social-btn" href="https://t.me/kaleidoscope39" target="_blank" rel="noopener">Telegram</a>
+                <a class="social-btn" href="https://www.instagram.com/kaleidoskop_kaliningrad" target="_blank" rel="noopener">Instagram</a>
+              </div>
+            </dd>
+          </dl>
+
+          <!-- MAP NAV BUTTONS -->
+          <div>
+            <p class="map-nav-label">Как добраться</p>
+            <div class="map-nav">
+
+              <!-- Яндекс Карты -->
+              <a class="map-link"
+                href="https://yandex.ru/maps/-/CPvSqR8Z"
+                target="_blank" rel="noopener">
+                <div class="map-link-icon" style="background:#FFCC00;">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="10" r="5" fill="#FC3F1D"/>
+                    <path d="M12 2C7.58 2 4 5.58 4 10c0 5.25 8 14 8 14s8-8.75 8-14c0-4.42-3.58-8-8-8zm0 11a3 3 0 110-6 3 3 0 010 6z" fill="#FC3F1D"/>
+                  </svg>
+                </div>
+                <div class="map-link-text">
+                  <span class="map-link-title">Яндекс Карты</span>
+                  <span class="map-link-sub">Построить маршрут</span>
+                </div>
+              </a>
+
+              <!-- Google Maps -->
+              <a class="map-link"
+                href="https://maps.app.goo.gl/5uCkrTQEapGwESkf9"
+                target="_blank" rel="noopener">
+                <div class="map-link-icon" style="background:#fff; border: 1px solid #E5E7EB;">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" fill="#EA4335"/>
+                    <path d="M12 2v7.5" stroke="#34A853" stroke-width="0"/>
+                    <circle cx="12" cy="9" r="2.5" fill="#fff"/>
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 2.12.76 4.06 2 5.57L12 22l5-7.43A6.97 6.97 0 0019 9c0-3.87-3.13-7-7-7z" fill="none" stroke="#FBBC05" stroke-width="0"/>
+                    <!-- Simplified Google pin in brand colors -->
+                    <path d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 13 7 13s7-7.7 7-13c0-3.9-3.1-7-7-7z" fill="#4285F4"/>
+                    <circle cx="12" cy="9" r="3" fill="#fff"/>
+                  </svg>
+                </div>
+                <div class="map-link-text">
+                  <span class="map-link-title">Google Карты</span>
+                  <span class="map-link-sub">Построить маршрут</span>
+                </div>
+              </a>
+
+              <!-- 2ГИС -->
+              <a class="map-link"
+                href="https://go.2gis.com/q6MdP"
+                target="_blank" rel="noopener">
+                <div class="map-link-icon" style="background:#00B956;">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" fill="#fff"/>
+                  </svg>
+                </div>
+                <div class="map-link-text">
+                  <span class="map-link-title">2ГИС</span>
+                  <span class="map-link-sub">Построить маршрут</span>
+                </div>
+              </a>
+
             </div>
           </div>
-          <div class="hidden md:block">
-            <a href="tel:+79622657774"
-              class="text-white bg-indigo-700 hover:bg-indigo-800 rounded-md px-4 py-2 font-medium">Позвонить</a>
-          </div>
-          <div class="md:hidden">
-            <button id="menu-btn" type="button"
-              class="inline-flex items-center justify-center rounded-md bg-indigo-600 p-2 text-indigo-200 hover:bg-indigo-500/75 hover:text-white focus:outline-none"
-              aria-controls="mobile-menu" aria-expanded="false">
-              <span class="sr-only">Открыть меню</span>
-              <svg class="h-6 w-6" id="menu-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-              <svg class="h-6 w-6 hidden" id="menu-close" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
         </div>
       </div>
-      <div class="md:hidden" id="mobile-menu" hidden>
-        <div class="space-y-1 px-2 pt-2 pb-3">
-          <a href="#about" class="block text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-base font-medium">О
-            нас</a>
-          <a href="#plans"
-            class="block text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-base font-medium">Программы</a>
-          <a href="#gallery"
-            class="block text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-base font-medium">Галерея</a>
-          <a href="#contact"
-            class="block text-white hover:bg-indigo-500/75 rounded-md px-3 py-2 text-base font-medium">Контакты</a>
-          <a href="tel:+79622657774"
-            class="block text-white bg-indigo-700 hover:bg-indigo-800 rounded-md px-3 py-2 text-base font-medium mt-2">Позвонить</a>
-        </div>
-      </div>
-      <script>
-        // Simple mobile menu toggle (no popup, no dropdown)
-        const btn = document.getElementById('menu-btn');
-        const menu = document.getElementById('mobile-menu');
-        const openIcon = document.getElementById('menu-open');
-        const closeIcon = document.getElementById('menu-close');
-        btn.onclick = () => {
-          const isHidden = menu.hasAttribute('hidden');
-          if (isHidden) {
-            menu.removeAttribute('hidden');
-            openIcon.classList.add('hidden');
-            closeIcon.classList.remove('hidden');
-          } else {
-            menu.setAttribute('hidden', '');
-            openIcon.classList.remove('hidden');
-            closeIcon.classList.add('hidden');
-          }
-        };
-      </script>
-    </nav>
+    </div>
+  </section>
 
-    <main class="flex-1">
-      <div class="mx-auto max-w-4xl px-4 py-8">
-        <section>
-          <h1 class="text-2xl font-bold text-gray-900 mb-4">Откройте мир для вашего ребёнка</h1>
-          <p class="text-gray-700 mb-8">В центре «Калейдоскоп» мы помогаем детям расти самостоятельными,
-            любознательными и уверенными в себе, следуя методу Марии Монтессори.</p>
-        </section>
-        <section id="about" class="mb-10">
-          <h2 class="text-xl font-semibold text-indigo-700 mb-2">О нашем центре</h2>
-          <p class="text-gray-700 mb-4">Мы создали безопасную, уважительную и подготовленную среду, где каждый
-            ребёнок может развиваться в собственном темпе. Наша главная задача — поддерживать естественное стремление
-            детей к познанию, развивать концентрацию, самодисциплину и любовь к учёбе.</p>
-          <h3 class="font-semibold text-indigo-600 mb-1">Наша команда</h3>
-          <p class="text-gray-700"><b>Ольга Викторовна Древс</b> — директор и идейный вдохновитель центра</p>
-        </section>
-        <section id="plans" class="mb-10">
-          <h2 class="text-xl font-semibold text-indigo-700 mb-2">Наши программы</h2>
-          <ul class="list-disc pl-6 text-gray-700 space-y-1">
-            <li><b>Toddler (1,5–3 года):</b> мягкая адаптация, развитие моторики, социализация.</li>
-            <li><b>Pre-school (3–7 лет):</b> комплексное развитие, музыка, творчество, английский, подготовка к
-              школе.</li>
-            <li><b>Дополнительные занятия:</b> фитнес, музыка, шахматы, йога, английский, логопед, мастер-классы.
-            </li>
-          </ul>
-        </section>
-        <section id="gallery" class="mb-10">
-          <h2 class="text-xl font-semibold text-indigo-700 mb-4">Галерея</h2>
-          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            <img src="gallery/image001.jpg" alt="Галерея 1" class="rounded-lg shadow" />
-            <img src="gallery/image002.jpg" alt="Галерея 2" class="rounded-lg shadow" />
-            <img src="gallery/image003.jpg" alt="Галерея 3" class="rounded-lg shadow" />
-            <img src="gallery/image004.jpg" alt="Галерея 4" class="rounded-lg shadow" />
-            <img src="gallery/image005.jpg" alt="Галерея 5" class="rounded-lg shadow" />
-            <img src="gallery/image006.jpg" alt="Галерея 6" class="rounded-lg shadow" />
-            <img src="gallery/image007.jpg" alt="Галерея 7" class="rounded-lg shadow" />
-            <img src="gallery/image008.jpg" alt="Галерея 8" class="rounded-lg shadow" />
-            <img src="gallery/image009.jpg" alt="Галерея 9" class="rounded-lg shadow" />
-            <img src="gallery/image010.jpg" alt="Галерея 10" class="rounded-lg shadow" />
-            <img src="gallery/image011.jpg" alt="Галерея 11" class="rounded-lg shadow" />
-            <img src="gallery/image012.jpg" alt="Галерея 12" class="rounded-lg shadow" />
-            <img src="gallery/image013.jpg" alt="Галерея 13" class="rounded-lg shadow" />
-            <img src="gallery/image014.jpg" alt="Галерея 14" class="rounded-lg shadow" />
-            <img src="gallery/image015.jpg" alt="Галерея 15" class="rounded-lg shadow" />
-            <img src="gallery/image016.jpg" alt="Галерея 16" class="rounded-lg shadow" />
-            <img src="gallery/image017.jpg" alt="Галерея 17" class="rounded-lg shadow" />
-            <img src="gallery/image018.jpg" alt="Галерея 18" class="rounded-lg shadow" />
-            <img src="gallery/image019.jpg" alt="Галерея 19" class="rounded-lg shadow" />
-            <img src="gallery/image020.jpg" alt="Галерея 20" class="rounded-lg shadow" />
-            <img src="gallery/image021.jpg" alt="Галерея 21" class="rounded-lg shadow" />
-            <img src="gallery/image022.jpg" alt="Галерея 22" class="rounded-lg shadow" />
-          </div>
-        </section>
-        <section id="contact" class="mb-10">
-          <h2 class="text-xl font-semibold text-indigo-700 mb-2">Контакты</h2>
-          <p class="text-gray-700"><b>Адрес:</b> г. Калининград, ул. Красная, д. 273</p>
-          <p class="text-gray-700"><b>Телефон:</b> <a href="tel:+79622657774" class="text-indigo-700 hover:underline">+7
-              (962) 265-77-74</a></p>
-          <p class="text-gray-700 space-x-2">
-            <a href="https://t.me/kaleidoscope39" target="_blank" class="text-indigo-700 hover:underline">Telegram</a>
-            <span>|</span>
-            <a href="https://wa.me/79622657774" target="_blank" class="text-indigo-700 hover:underline">WhatsApp</a>
-            <span>|</span>
-            <a href="https://vk.com/club222772943" target="_blank" class="text-indigo-700 hover:underline">ВКонтакте</a>
-            <span>|</span>
-            <a href="https://www.instagram.com/kaleidoskop_kaliningrad" target="_blank"
-              class="text-indigo-700 hover:underline">Instagram</a>
-            <span>|</span>
-            <a href="viber://chat?number=+79622657774" class="text-indigo-700 hover:underline">Viber</a>
-          </p>
-        </section>
-      </div>
-    </main>
-    <footer class="bg-indigo-800 text-white text-center py-4">
-      © 2025 Монтессори-центр «Калейдоскоп». Все права защищены.
-    </footer>
-  </div>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">Калейдоскоп</div>
+    <p>
+      &copy; 2026 Монтессори-центр «Калейдоскоп» &nbsp;&middot;&nbsp; Калининград, ул. Красная, 273-275<br />
+      <a href="tel:+79622657774">+7 962 265-77-74</a> &nbsp;&middot;&nbsp;
+      <a href="mailto:drevs.olga888@gmail.com">drevs.olga888@gmail.com</a><br /><br />
+      Сайт разработан <a href="https://kaliningrad.pro/" target="_blank" rel="noopener" title="kaliningrad.pro — IT-компания в Калининграде, разработка цифровых проектов любой сложности" aria-label="kaliningrad.pro — IT-компания в Калининграде, разработка цифровых проектов любой сложности">kaliningrad.pro</a>
+    </p>
+  </footer>
+  <script src="/assets/js/site.min.js"></script>
 </body>
-
 </html>
